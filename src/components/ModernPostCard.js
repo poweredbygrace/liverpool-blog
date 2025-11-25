@@ -61,10 +61,10 @@ export default function ModernPostCard({ post }) {
           <span className={isLiked ? 'scale-110' : ''}>❤️</span>
           <span className="text-sm">Like</span>
         </button>
-        <button className="flex items-center gap-2 px-4 py-2 rounded-xl font-medium bg-gray-100 text-gray-600 hover:bg-gray-200 transition-all duration-300">
+        {/* <button className="flex items-center gap-2 px-4 py-2 rounded-xl font-medium bg-gray-100 text-gray-600 hover:bg-gray-200 transition-all duration-300">
           <span>💬</span>
           <span className="text-sm">Comment</span>
-        </button>
+        </button> */}
       </div>
     </article>
   );
